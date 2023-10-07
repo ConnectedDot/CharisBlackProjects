@@ -24,11 +24,19 @@ input {
   font-size: 16px;
 }
 
+p {
+  width: 30%;
+  display: block;
+  margin: 30px 1250px;
+  min-width: 272px;
+  font-size: 20px;
+}
+
 button {
   box-sizing: border-box;
   margin-top: 0;
   padding: 0 16px;
-  font-size: 14px;
+  font-size: 16px;
   height: 36px;
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
@@ -40,6 +48,9 @@ button:first-of-type {
   margin-left: calc(50% - 131.5px);
 }
 
-button::hover {
+button:hover {
   cursor: pointer;
+  background-color: #145596;
+  color: #f8f9fa;
+  border: 1px solid #f8f9fa;
 }
