@@ -1,5 +1,5 @@
 body {
-  background: yellow;
+  background-color: rgba(30, 158, 136, 1);
   color: rgb(5, 1, 1);
   font-size: 20px;
   font-weight: 18px;
@@ -17,4 +17,16 @@ body {
   font-size: 14px;
   font-weight: bold;
   cursor: pointer;
+}
+.btn:hover {
+  background: #fff;
+  color: #2a2839;
+  border: 1px solid #2a2839;
+}
+
+.heading {
+  color: #2a2839;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
